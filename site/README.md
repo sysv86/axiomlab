@@ -1,5 +1,9 @@
 # AxiomLab site
 
+> **Registry status:** the `axiomlab` npm and PyPI packages are not published yet.
+> Install from source for now: `npm install github:sysv86/axiomlab` or
+> `pip install "git+https://github.com/sysv86/axiomlab.git"`.
+
 Svelte 5 / SvelteKit 3 / Tailwind 4 site for AxiomLab. Static build, deployed to
 <https://kerneldroid.github.io/axiomlab/>.
 

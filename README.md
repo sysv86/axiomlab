@@ -4,6 +4,12 @@
 
 [Website](https://kerneldroid.github.io/axiomlab/) · [Playground](https://kerneldroid.github.io/axiomlab/playground/) · [Benchmarks](https://kerneldroid.github.io/axiomlab/benchmarks/) · [API](https://kerneldroid.github.io/axiomlab/docs/)
 
+> **Registry status (2026-10-22):** the packages are **not published to npm or PyPI yet**. `pip install axiomlab` and `npm install axiomlab` will return 404. Until the first registry upload, install from source:
+> ```bash
+> pip install "git+https://github.com/sysv86/axiomlab.git"
+> npm install github:sysv86/axiomlab
+> ```
+
 Calibrated and validated on **6 primary-source human psychophysical datasets (10,452 color pairs)** plus the **CIE TC 1-47 / Sharma et al. (2005) CIEDE2000 reference verification set (34 pairs; 10,486 pairs total across 3,814 unique colorimetric stimuli)** — with **zero synthetic random pairs, zero dead or bound-clamped parameters, and self-contained reproducible benchmarks**.
 
 ---
@@ -133,7 +139,7 @@ npm run dev      # http://localhost:5173/axiomlab/
 npm run build    # static output in site/build
 ```
 
-Published at <https://kerneldroid.github.io/axiomlab/>.
+Site published at <https://kerneldroid.github.io/axiomlab/>. The npm and PyPI packages are **not published yet**; see the registry status note at the top.
 
 ## 7. License and credits
 

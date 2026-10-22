@@ -63,11 +63,17 @@ python3 benchmark_helmlab.py`;
 			AxiomLab ships as a pure-NumPy Python package and a zero-dependency JavaScript file. Both expose the same
 			conversions and the same two metrics; parity is tested to 1e-15.
 		</p>
-		<div class="flex flex-wrap gap-2">
-			<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">pip install axiomlab</span>
-			<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">npm install axiomlab</span>
+		<div class="flex flex-wrap items-center gap-2">
+			<span class="rounded-m3-full bg-tertiary-container px-3 py-1.5 type-label-md text-on-tertiary-container">Not yet on npm / PyPI</span>
+			<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">pip install "git+https://github.com/sysv86/axiomlab.git"</span>
+			<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">npm install github:sysv86/axiomlab</span>
 			<span class="rounded-m3-full bg-secondary-container px-3 py-1.5 type-label-sm text-on-secondary-container">MIT</span>
 		</div>
+		<p class="type-body-sm max-w-[74ch] text-on-surface-variant">
+			Registry status: the npm and PyPI packages are not published yet. The source installs above work now;
+			<code class="font-mono">pip install axiomlab</code> and <code class="font-mono">npm install axiomlab</code>
+			will return 404 until the first release is uploaded.
+		</p>
 	</header>
 
 	<section class="grid gap-6 lg:grid-cols-2" aria-labelledby="quickstart-title">

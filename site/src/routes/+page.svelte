@@ -268,10 +268,16 @@ ramp = ax.gradient("#0000ff", "#ffffff", 16, metric_step=True)`;
 				The Python package is pure NumPy; the JavaScript build is a single 18 KB file with no dependencies.
 				Both implement the identical closed form.
 			</p>
-			<div class="flex flex-wrap gap-2">
-				<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">pip install axiomlab</span>
-				<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">npm install axiomlab</span>
+			<div class="flex flex-wrap items-center gap-2">
+				<span class="rounded-m3-full bg-tertiary-container px-3 py-1.5 type-label-md text-on-tertiary-container">Not yet on npm / PyPI</span>
+				<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">pip install "git+https://github.com/sysv86/axiomlab.git"</span>
+				<span class="rounded-m3-full bg-surface-container-high px-3 py-1.5 font-mono text-xs">npm install github:sysv86/axiomlab</span>
 			</div>
+			<p class="type-body-sm text-on-surface-variant">
+				Source installs work today. Registry uploads are pending; the plain
+				<code class="font-mono">pip install axiomlab</code> and <code class="font-mono">npm install axiomlab</code>
+				commands will return 404 until the first release is published.
+			</p>
 			<Button href={resolve('/docs')} variant="outlined" size="md">Read the API <ArrowRight size={18} /></Button>
 		</div>
 		<CodeBlock code={quickstart} language="python" title="axiomlab.py" />
