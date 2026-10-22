@@ -1,0 +1,58 @@
+/** The 49 md.sys.color roles in kebab-case (CSS var: --md-sys-color-<role>). */
+export const COLOR_ROLES = [
+	'primary',
+	'on-primary',
+	'primary-container',
+	'on-primary-container',
+	'primary-fixed',
+	'primary-fixed-dim',
+	'on-primary-fixed',
+	'on-primary-fixed-variant',
+	'inverse-primary',
+	'secondary',
+	'on-secondary',
+	'secondary-container',
+	'on-secondary-container',
+	'secondary-fixed',
+	'secondary-fixed-dim',
+	'on-secondary-fixed',
+	'on-secondary-fixed-variant',
+	'tertiary',
+	'on-tertiary',
+	'tertiary-container',
+	'on-tertiary-container',
+	'tertiary-fixed',
+	'tertiary-fixed-dim',
+	'on-tertiary-fixed',
+	'on-tertiary-fixed-variant',
+	'error',
+	'on-error',
+	'error-container',
+	'on-error-container',
+	'surface',
+	'surface-dim',
+	'surface-bright',
+	'surface-container-lowest',
+	'surface-container-low',
+	'surface-container',
+	'surface-container-high',
+	'surface-container-highest',
+	'on-surface',
+	'surface-variant',
+	'on-surface-variant',
+	'outline',
+	'outline-variant',
+	'inverse-surface',
+	'inverse-on-surface',
+	'scrim',
+	'shadow',
+	'surface-tint',
+	'background',
+	'on-background'
+] as const;
+
+export type ColorRole = (typeof COLOR_ROLES)[number];
+export type ColorMap = Record<ColorRole, string>;
+
+/** CSS custom property for a role, e.g. cssVar('primary') === '--md-sys-color-primary'. */
+export const cssVar = (role: ColorRole) => `--md-sys-color-${role}` as const;

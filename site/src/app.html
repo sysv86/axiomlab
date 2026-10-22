@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+		<meta name="text-scale" content="scale" />
+		<meta name="theme-color" content="#fef7ff" media="(prefers-color-scheme: light)" />
+		<meta name="theme-color" content="#141218" media="(prefers-color-scheme: dark)" />
+		<meta
+			name="description"
+			content="AxiomLab — a closed-form perceptual color space with a strictly positive-definite Riemannian metric, calibrated on 10,486 human color-difference pairs. Playground, benchmarks and HelmLab comparison."
+		/>
+		<script>
+			// Apply the saved color mode before first paint (no light flash in dark mode).
+			try {
+				var saved = JSON.parse(localStorage.getItem('axiomlab-theme') || 'null');
+				var dark = saved && typeof saved.dark === 'boolean'
+					? saved.dark
+					: matchMedia('(prefers-color-scheme: dark)').matches;
+				if (dark) document.documentElement.classList.add('dark');
+			} catch (e) {}
+		</script>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>

@@ -1,0 +1,696 @@
+{
+  "version": "2.1.0",
+  "axiomlab_suite": {
+    "pairs": 10486,
+    "methods": {
+      "AxiomLab v2.1 (Power-Riemannian)": {
+        "MacAdam74": 15.93,
+        "OSA-Atlas": 11.49,
+        "MacAdam42": 24.19,
+        "Munsell-V": 7.67,
+        "Munsell-C": 28.45,
+        "Munsell-H": 24.44,
+        "CIE-TC147": 15.1,
+        "Mean6_Psychophysical": 18.7,
+        "Mean7": 18.18
+      },
+      "AxiomLab v2.1 (Homogeneous Riemannian)": {
+        "MacAdam74": 16.41,
+        "OSA-Atlas": 13.13,
+        "MacAdam42": 29.22,
+        "Munsell-V": 10.01,
+        "Munsell-C": 34.79,
+        "Munsell-H": 26.34,
+        "CIE-TC147": 14.68,
+        "Mean6_Psychophysical": 21.65,
+        "Mean7": 20.65
+      },
+      "HelmLab 1.0 MetricSpace": {
+        "MacAdam74": 19.51,
+        "OSA-Atlas": 20.31,
+        "MacAdam42": 65.57,
+        "Munsell-V": 15.7,
+        "Munsell-C": 38.33,
+        "Munsell-H": 35.07,
+        "CIE-TC147": 50.48,
+        "Mean6_Psychophysical": 32.41,
+        "Mean7": 35.0
+      },
+      "CIEDE2000": {
+        "MacAdam74": 22.13,
+        "OSA-Atlas": 27.95,
+        "MacAdam42": 40.87,
+        "Munsell-V": 21.47,
+        "Munsell-C": 49.18,
+        "Munsell-H": 34.62,
+        "CIE-TC147": 0.07,
+        "Mean6_Psychophysical": 32.7,
+        "Mean7": 28.04
+      },
+      "OKLab (Euclidean)": {
+        "MacAdam74": 32.72,
+        "OSA-Atlas": 26.21,
+        "MacAdam42": 38.17,
+        "Munsell-V": 14.27,
+        "Munsell-C": 43.74,
+        "Munsell-H": 32.41,
+        "CIE-TC147": 45.73,
+        "Mean6_Psychophysical": 31.25,
+        "Mean7": 33.32
+      },
+      "CAM16-UCS": {
+        "MacAdam74": 18.7,
+        "OSA-Atlas": 18.16,
+        "MacAdam42": 31.39,
+        "Munsell-V": 13.08,
+        "Munsell-C": 42.5,
+        "Munsell-H": 33.75,
+        "CIE-TC147": 17.84,
+        "Mean6_Psychophysical": 26.26,
+        "Mean7": 25.06
+      },
+      "IPT (Euclidean)": {
+        "MacAdam74": 21.27,
+        "OSA-Atlas": 12.39,
+        "MacAdam42": 38.49,
+        "Munsell-V": 19.68,
+        "Munsell-C": 34.85,
+        "Munsell-H": 30.93,
+        "CIE-TC147": 38.12,
+        "Mean6_Psychophysical": 26.27,
+        "Mean7": 27.96
+      }
+    }
+  },
+  "combvd_suite": {
+    "pairs": 3813,
+    "raw": {
+      "AxiomLab v2.1 (Power-Riemannian)": 33.72,
+      "AxiomLab v2.1 (Homogeneous Riemannian)": 36.13,
+      "HelmLab 1.0 MetricSpace": 22.73,
+      "CIEDE2000": 29.18,
+      "OKLab (Euclidean)": 47.46
+    },
+    "bradford_cat": {
+      "AxiomLab v2.1 (Power-Riemannian)": 33.47,
+      "AxiomLab v2.1 (Homogeneous Riemannian)": 35.79,
+      "HelmLab 1.0 MetricSpace": 22.48,
+      "CIEDE2000": 29.13,
+      "OKLab (Euclidean)": 47.35
+    }
+  },
+  "helm_published": {
+    "combvd_stress_raw": 22.73,
+    "combvd_stress_bradford_cat": 22.48,
+    "ciede2000_combvd": 29.18,
+    "source": "https://github.com/Grkmyldz148/helmlab (README, accessed 2026-10-22)",
+    "note": "HelmLab's own published figures; our harness reproduces them to two decimals."
+  },
+  "gradients": {
+    "steps": 16,
+    "pairs": [
+      {
+        "from": "#0000ff",
+        "to": "#ffffff",
+        "methods": {
+          "AxiomLab": {
+            "ramp": [
+              "#0000ff",
+              "#193cf7",
+              "#2d55f1",
+              "#4068ec",
+              "#5178e9",
+              "#6186e7",
+              "#7194e6",
+              "#81a1e6",
+              "#90ade7",
+              "#a0b9e9",
+              "#afc5eb",
+              "#bed1ee",
+              "#cedcf1",
+              "#dee8f5",
+              "#eef4fa",
+              "#ffffff"
+            ],
+            "cv_axiom": 1.69,
+            "cv_ciede2000": 22.88
+          },
+          "HelmLab": {
+            "ramp": [
+              "#0000ff",
+              "#002fff",
+              "#0945ff",
+              "#1757ff",
+              "#2567ff",
+              "#3375ff",
+              "#4484ff",
+              "#5894ff",
+              "#70a4ff",
+              "#8ab4ff",
+              "#a3c4ff",
+              "#bbd2ff",
+              "#cfdfff",
+              "#e2ebff",
+              "#f1f6ff",
+              "#ffffff"
+            ],
+            "cv_axiom": 23.39,
+            "cv_ciede2000": 2.36
+          },
+          "OKLab": {
+            "ramp": [
+              "#0000ff",
+              "#0034ff",
+              "#0f4dff",
+              "#2260ff",
+              "#3571ff",
+              "#4780ff",
+              "#598eff",
+              "#6b9cff",
+              "#7da9ff",
+              "#8fb6ff",
+              "#a1c3ff",
+              "#b3cfff",
+              "#c6dbff",
+              "#d9e7ff",
+              "#ecf3ff",
+              "#ffffff"
+            ],
+            "cv_axiom": 13.39,
+            "cv_ciede2000": 18.14
+          },
+          "Linear sRGB": {
+            "ramp": [
+              "#0000ff",
+              "#1111ff",
+              "#2222ff",
+              "#3333ff",
+              "#4444ff",
+              "#5555ff",
+              "#6666ff",
+              "#7777ff",
+              "#8888ff",
+              "#9999ff",
+              "#aaaaff",
+              "#bbbbff",
+              "#ccccff",
+              "#ddddff",
+              "#eeeeff",
+              "#ffffff"
+            ],
+            "cv_axiom": 39.6,
+            "cv_ciede2000": 36.97
+          }
+        }
+      },
+      {
+        "from": "#ff0000",
+        "to": "#00ff00",
+        "methods": {
+          "AxiomLab": {
+            "ramp": [
+              "#ff0000",
+              "#fa3d0c",
+              "#f55615",
+              "#f0691b",
+              "#ec791f",
+              "#e78720",
+              "#e29320",
+              "#dca01d",
+              "#d6ab19",
+              "#cdb613",
+              "#c3c20c",
+              "#b6cd03",
+              "#a4d902",
+              "#8ce501",
+              "#69f203",
+              "#00ff00"
+            ],
+            "cv_axiom": 3.37,
+            "cv_ciede2000": 12.73
+          },
+          "HelmLab": {
+            "ramp": [
+              "#ff0000",
+              "#fa4102",
+              "#f55a04",
+              "#ef6d06",
+              "#ea7b07",
+              "#e48808",
+              "#de930a",
+              "#d89e0b",
+              "#d2a80b",
+              "#cab10c",
+              "#c1bb0b",
+              "#b6c60b",
+              "#a7d209",
+              "#91df07",
+              "#6fee04",
+              "#00ff00"
+            ],
+            "cv_axiom": 12.66,
+            "cv_ciede2000": 2.64
+          },
+          "OKLab": {
+            "ramp": [
+              "#ff0000",
+              "#fb3a00",
+              "#f65300",
+              "#f16700",
+              "#eb7700",
+              "#e58700",
+              "#dd9500",
+              "#d5a200",
+              "#cbaf00",
+              "#c0bb00",
+              "#b3c700",
+              "#a4d200",
+              "#92de00",
+              "#7be900",
+              "#5af400",
+              "#00ff00"
+            ],
+            "cv_axiom": 12.51,
+            "cv_ciede2000": 22.12
+          },
+          "Linear sRGB": {
+            "ramp": [
+              "#ff0000",
+              "#ee1100",
+              "#dd2200",
+              "#cc3300",
+              "#bb4400",
+              "#aa5500",
+              "#996600",
+              "#887700",
+              "#778800",
+              "#669900",
+              "#55aa00",
+              "#44bb00",
+              "#33cc00",
+              "#22dd00",
+              "#11ee00",
+              "#00ff00"
+            ],
+            "cv_axiom": 27.91,
+            "cv_ciede2000": 48.18
+          }
+        }
+      },
+      {
+        "from": "#0000ff",
+        "to": "#ffff00",
+        "methods": {
+          "AxiomLab": {
+            "ramp": [
+              "#0000ff",
+              "#0051d7",
+              "#0166c8",
+              "#0177bf",
+              "#1a85b4",
+              "#3b91a8",
+              "#569ba1",
+              "#67a79e",
+              "#70b49b",
+              "#7ac193",
+              "#8dcd87",
+              "#a3d77a",
+              "#bae16b",
+              "#d1eb58",
+              "#e8f53f",
+              "#ffff00"
+            ],
+            "cv_axiom": 9.87,
+            "cv_ciede2000": 28.19
+          },
+          "HelmLab": {
+            "ramp": [
+              "#0000ff",
+              "#003bec",
+              "#0054eb",
+              "#0368ee",
+              "#227ce6",
+              "#3f8fdb",
+              "#5ca1d0",
+              "#71acc6",
+              "#81b6be",
+              "#8fbeb7",
+              "#9cc7ae",
+              "#acd0a2",
+              "#bddb92",
+              "#d1e67c",
+              "#e7f25b",
+              "#ffff00"
+            ],
+            "cv_axiom": 23.23,
+            "cv_ciede2000": 2.84
+          },
+          "OKLab": {
+            "ramp": [
+              "#0000ff",
+              "#003cf9",
+              "#0056f3",
+              "#056aec",
+              "#237be5",
+              "#3a8ade",
+              "#4e98d5",
+              "#62a5cc",
+              "#76b2c2",
+              "#89beb7",
+              "#9cc9aa",
+              "#b0d59b",
+              "#c4df89",
+              "#d7ea73",
+              "#ebf553",
+              "#ffff00"
+            ],
+            "cv_axiom": 24.68,
+            "cv_ciede2000": 20.26
+          },
+          "Linear sRGB": {
+            "ramp": [
+              "#0000ff",
+              "#1111ee",
+              "#2222dd",
+              "#3333cc",
+              "#4444bb",
+              "#5555aa",
+              "#666699",
+              "#777788",
+              "#888877",
+              "#999966",
+              "#aaaa55",
+              "#bbbb44",
+              "#cccc33",
+              "#dddd22",
+              "#eeee11",
+              "#ffff00"
+            ],
+            "cv_axiom": 40.65,
+            "cv_ciede2000": 65.99
+          }
+        }
+      },
+      {
+        "from": "#00ffff",
+        "to": "#ff00ff",
+        "methods": {
+          "AxiomLab": {
+            "ramp": [
+              "#00ffff",
+              "#51f6fd",
+              "#6dedfb",
+              "#7ee4fb",
+              "#8bdbfc",
+              "#98d1ff",
+              "#a6c7ff",
+              "#b3bcff",
+              "#bfb0fe",
+              "#caa4fd",
+              "#d496fc",
+              "#dd87fc",
+              "#e676fc",
+              "#ef61fd",
+              "#f745fe",
+              "#ff00ff"
+            ],
+            "cv_axiom": 2.1,
+            "cv_ciede2000": 25.61
+          },
+          "HelmLab": {
+            "ramp": [
+              "#00ffff",
+              "#55f5ff",
+              "#72edff",
+              "#86e4ff",
+              "#94ddff",
+              "#9fd6ff",
+              "#a8cfff",
+              "#b1c8ff",
+              "#bac0ff",
+              "#c3b6ff",
+              "#cdabff",
+              "#d69dff",
+              "#e18bff",
+              "#eb74ff",
+              "#f553ff",
+              "#ff00ff"
+            ],
+            "cv_axiom": 24.27,
+            "cv_ciede2000": 3.44
+          },
+          "OKLab": {
+            "ramp": [
+              "#00ffff",
+              "#56f5ff",
+              "#77eaff",
+              "#8ee0ff",
+              "#a0d5ff",
+              "#afcaff",
+              "#bcbeff",
+              "#c7b2ff",
+              "#d1a6ff",
+              "#da99ff",
+              "#e28bff",
+              "#e97cff",
+              "#ef6bff",
+              "#f557ff",
+              "#fa3dff",
+              "#ff00ff"
+            ],
+            "cv_axiom": 17.42,
+            "cv_ciede2000": 36.18
+          },
+          "Linear sRGB": {
+            "ramp": [
+              "#00ffff",
+              "#11eeff",
+              "#22ddff",
+              "#33ccff",
+              "#44bbff",
+              "#55aaff",
+              "#6699ff",
+              "#7788ff",
+              "#8877ff",
+              "#9966ff",
+              "#aa55ff",
+              "#bb44ff",
+              "#cc33ff",
+              "#dd22ff",
+              "#ee11ff",
+              "#ff00ff"
+            ],
+            "cv_axiom": 11.95,
+            "cv_ciede2000": 36.05
+          }
+        }
+      },
+      {
+        "from": "#ff6b00",
+        "to": "#008080",
+        "methods": {
+          "AxiomLab": {
+            "ramp": [
+              "#ff6b00",
+              "#f2701f",
+              "#e5752f",
+              "#d8783a",
+              "#cb7b42",
+              "#be7e4a",
+              "#b18050",
+              "#a48156",
+              "#95835c",
+              "#858462",
+              "#758569",
+              "#678471",
+              "#5c8276",
+              "#4d8179",
+              "#37807c",
+              "#008080"
+            ],
+            "cv_axiom": 2.63,
+            "cv_ciede2000": 36.81
+          },
+          "HelmLab": {
+            "ramp": [
+              "#ff6b00",
+              "#ea732d",
+              "#d77840",
+              "#c57c4c",
+              "#b57e55",
+              "#a7805c",
+              "#9c8161",
+              "#928165",
+              "#8a8268",
+              "#82826b",
+              "#79826d",
+              "#6f8270",
+              "#638274",
+              "#538277",
+              "#3b817b",
+              "#008080"
+            ],
+            "cv_axiom": 36.18,
+            "cv_ciede2000": 2.66
+          },
+          "OKLab": {
+            "ramp": [
+              "#ff6b00",
+              "#f36f20",
+              "#e77330",
+              "#db773b",
+              "#ce7944",
+              "#c27c4c",
+              "#b57d53",
+              "#a97f5a",
+              "#9b8060",
+              "#8e8165",
+              "#7f816a",
+              "#70826f",
+              "#5f8274",
+              "#4c8178",
+              "#34817c",
+              "#008080"
+            ],
+            "cv_axiom": 11.89,
+            "cv_ciede2000": 37.93
+          },
+          "Linear sRGB": {
+            "ramp": [
+              "#ff6b00",
+              "#ee6c09",
+              "#dd6e11",
+              "#cc6f1a",
+              "#bb7122",
+              "#aa722b",
+              "#997333",
+              "#88753c",
+              "#777644",
+              "#66784d",
+              "#557955",
+              "#447a5e",
+              "#337c66",
+              "#227d6f",
+              "#117f77",
+              "#008080"
+            ],
+            "cv_axiom": 15.61,
+            "cv_ciede2000": 29.52
+          }
+        }
+      },
+      {
+        "from": "#000000",
+        "to": "#ffffff",
+        "methods": {
+          "AxiomLab": {
+            "ramp": [
+              "#000000",
+              "#0f0f0f",
+              "#1e1e1e",
+              "#2d2d2d",
+              "#3d3d3d",
+              "#4d4d4d",
+              "#5d5d5d",
+              "#6e6e6e",
+              "#7f7f7f",
+              "#919191",
+              "#a2a2a2",
+              "#b4b4b4",
+              "#c6c6c6",
+              "#d9d9d9",
+              "#ececec",
+              "#ffffff"
+            ],
+            "cv_axiom": 2.03,
+            "cv_ciede2000": 21.08
+          },
+          "HelmLab": {
+            "ramp": [
+              "#000000",
+              "#181818",
+              "#282828",
+              "#383838",
+              "#474747",
+              "#565656",
+              "#646464",
+              "#717171",
+              "#7d7d7d",
+              "#8b8b8b",
+              "#9a9a9a",
+              "#aaaaaa",
+              "#bdbdbd",
+              "#d1d1d1",
+              "#e7e7e7",
+              "#ffffff"
+            ],
+            "cv_axiom": 21.72,
+            "cv_ciede2000": 2.38
+          },
+          "OKLab": {
+            "ramp": [
+              "#000000",
+              "#010101",
+              "#080808",
+              "#161616",
+              "#262626",
+              "#363636",
+              "#484848",
+              "#5a5a5a",
+              "#6d6d6d",
+              "#808080",
+              "#949494",
+              "#a9a9a9",
+              "#bebebe",
+              "#d3d3d3",
+              "#e9e9e9",
+              "#ffffff"
+            ],
+            "cv_axiom": 29.96,
+            "cv_ciede2000": 40.89
+          },
+          "Linear sRGB": {
+            "ramp": [
+              "#000000",
+              "#111111",
+              "#222222",
+              "#333333",
+              "#444444",
+              "#555555",
+              "#666666",
+              "#777777",
+              "#888888",
+              "#999999",
+              "#aaaaaa",
+              "#bbbbbb",
+              "#cccccc",
+              "#dddddd",
+              "#eeeeee",
+              "#ffffff"
+            ],
+            "cv_axiom": 8.16,
+            "cv_ciede2000": 21.67
+          }
+        }
+      }
+    ]
+  },
+  "blue_white_midpoint": {
+    "AxiomLab": "#88a7e6",
+    "HelmLab": "#649cff",
+    "OKLab": "#74a3ff",
+    "Linear sRGB": "#8080ff"
+  },
+  "speed_python": {
+    "ax_from_xyz_100k_ms": 24.68,
+    "ax_distance_10k_pairs_ms": 3.28,
+    "helm_distance_10k_pairs_ms": 15.83,
+    "note": "Python 3.14 / NumPy; single machine, indicative only."
+  },
+  "caveats": [
+    "AxiomLab's 7-dataset suite is AxiomLab's calibration corpus; HelmLab is evaluated there out-of-domain.",
+    "COMBVD is HelmLab's training corpus; AxiomLab is evaluated there out-of-domain.",
+    "Gradient CV is measured on 16-step 8-bit hex ramps, so quantization sets a floor of roughly 1-5%.",
+    "HelmLab's gradient() applies CIEDE2000 arc-length reparameterization, so it is expected to win the CIEDE2000 CV column."
+  ]
+}

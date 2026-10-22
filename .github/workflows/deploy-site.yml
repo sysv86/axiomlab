@@ -1,0 +1,54 @@
+name: Build and deploy AxiomLab site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'site/**'
+      - 'axiomlab.js'
+      - 'benchmarks.json'
+      - 'axiomlab_results.json'
+      - '.github/workflows/deploy-site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-site-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - name: Install site dependencies
+        working-directory: site
+        run: npm ci
+
+      - name: Build static site
+        working-directory: site
+        run: |
+          npm run sync
+          npm run check
+          npm run build
+
+      - name: Deploy to kerneldroid/axiomlab (gh-pages)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.PAGES_DEPLOY_KEY }}
+          external_repository: kerneldroid/axiomlab
+          publish_branch: gh-pages
+          publish_dir: ./site/build
+          force_orphan: true
+          enable_jekyll: false

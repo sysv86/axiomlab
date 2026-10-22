@@ -1,0 +1,303 @@
+{
+  "version": "2.1.0",
+  "datasets_summary": {
+    "MacAdam74": 128,
+    "OSA-Atlas": 3673,
+    "MacAdam42": 216,
+    "Munsell-V": 2251,
+    "Munsell-C": 2369,
+    "Munsell-H": 1815,
+    "CIE-TC147": 34
+  },
+  "total_pairs": 10486,
+  "psychophysical_pairs": 10452,
+  "table1_stress": {
+    "AxiomLab v2.1 (Power-Riemannian)": {
+      "MacAdam74": 15.93,
+      "OSA-Atlas": 11.49,
+      "MacAdam42": 24.19,
+      "Munsell-V": 7.67,
+      "Munsell-C": 28.45,
+      "Munsell-H": 24.44,
+      "CIE-TC147": 15.1,
+      "Mean7": 18.18,
+      "Mean6_Psychophysical": 18.7
+    },
+    "AxiomLab v2.1 (Homogeneous Riemannian, gamma=1)": {
+      "MacAdam74": 16.41,
+      "OSA-Atlas": 13.13,
+      "MacAdam42": 29.22,
+      "Munsell-V": 10.01,
+      "Munsell-C": 34.79,
+      "Munsell-H": 26.34,
+      "CIE-TC147": 14.68,
+      "Mean7": 20.65,
+      "Mean6_Psychophysical": 21.65
+    },
+    "AxiomLab v2.1 (Pure Euclidean)": {
+      "MacAdam74": 17.47,
+      "OSA-Atlas": 11.92,
+      "MacAdam42": 29.67,
+      "Munsell-V": 11.3,
+      "Munsell-C": 35.81,
+      "Munsell-H": 25.36,
+      "CIE-TC147": 19.84,
+      "Mean7": 21.62,
+      "Mean6_Psychophysical": 21.92
+    },
+    "CAM16-UCS": {
+      "MacAdam74": 18.7,
+      "OSA-Atlas": 18.16,
+      "MacAdam42": 31.39,
+      "Munsell-V": 13.08,
+      "Munsell-C": 42.5,
+      "Munsell-H": 33.75,
+      "CIE-TC147": 17.84,
+      "Mean7": 25.06,
+      "Mean6_Psychophysical": 26.26
+    },
+    "CIE94": {
+      "MacAdam74": 19.79,
+      "OSA-Atlas": 20.24,
+      "MacAdam42": 39.58,
+      "Munsell-V": 10.41,
+      "Munsell-C": 45.37,
+      "Munsell-H": 31.49,
+      "CIE-TC147": 20.33,
+      "Mean7": 26.74,
+      "Mean6_Psychophysical": 27.81
+    },
+    "CIE Lab (CIE76)": {
+      "MacAdam74": 24.53,
+      "OSA-Atlas": 20.25,
+      "MacAdam42": 44.99,
+      "Munsell-V": 25.53,
+      "Munsell-C": 24.29,
+      "Munsell-H": 31.5,
+      "CIE-TC147": 23.58,
+      "Mean7": 27.81,
+      "Mean6_Psychophysical": 28.52
+    },
+    "IPT": {
+      "MacAdam74": 21.27,
+      "OSA-Atlas": 12.39,
+      "MacAdam42": 38.49,
+      "Munsell-V": 19.68,
+      "Munsell-C": 34.85,
+      "Munsell-H": 30.93,
+      "CIE-TC147": 38.12,
+      "Mean7": 27.96,
+      "Mean6_Psychophysical": 26.27
+    },
+    "CIEDE2000": {
+      "MacAdam74": 22.13,
+      "OSA-Atlas": 27.95,
+      "MacAdam42": 40.87,
+      "Munsell-V": 21.47,
+      "Munsell-C": 49.18,
+      "Munsell-H": 34.62,
+      "CIE-TC147": 0.07,
+      "Mean7": 28.04,
+      "Mean6_Psychophysical": 32.7
+    },
+    "Jzazbz": {
+      "MacAdam74": 23.21,
+      "OSA-Atlas": 16.24,
+      "MacAdam42": 32.93,
+      "Munsell-V": 25.06,
+      "Munsell-C": 35.93,
+      "Munsell-H": 28.56,
+      "CIE-TC147": 35.74,
+      "Mean7": 28.24,
+      "Mean6_Psychophysical": 26.99
+    },
+    "DIN99": {
+      "MacAdam74": 23.31,
+      "OSA-Atlas": 21.24,
+      "MacAdam42": 37.56,
+      "Munsell-V": 22.39,
+      "Munsell-C": 43.51,
+      "Munsell-H": 38.63,
+      "CIE-TC147": 15.2,
+      "Mean7": 28.83,
+      "Mean6_Psychophysical": 31.11
+    },
+    "OKLab": {
+      "MacAdam74": 32.72,
+      "OSA-Atlas": 26.21,
+      "MacAdam42": 38.17,
+      "Munsell-V": 14.27,
+      "Munsell-C": 43.74,
+      "Munsell-H": 32.41,
+      "CIE-TC147": 45.73,
+      "Mean7": 33.32,
+      "Mean6_Psychophysical": 31.25
+    },
+    "OSA-UCS (ASTM E1360)": {
+      "MacAdam74": 19.85,
+      "OSA-Atlas": 11.41,
+      "MacAdam42": 43.99,
+      "Munsell-V": 44.54,
+      "Munsell-C": 45.44,
+      "Munsell-H": 29.17,
+      "CIE-TC147": 46.75,
+      "Mean7": 34.45,
+      "Mean6_Psychophysical": 32.4
+    }
+  },
+  "ablation": {
+    "Full AxiomLab v2.1 (Power-Riemannian)": {
+      "MacAdam74": 15.93,
+      "OSA-Atlas": 11.49,
+      "MacAdam42": 24.19,
+      "Munsell-V": 7.67,
+      "Munsell-C": 28.45,
+      "Munsell-H": 24.44,
+      "CIE-TC147": 15.1,
+      "Mean6_Psychophysical": 18.7,
+      "Mean7": 18.18
+    },
+    "Ablation: No Blue-Tilt (R_T = 0)": {
+      "MacAdam74": 15.88,
+      "OSA-Atlas": 11.5,
+      "MacAdam42": 24.15,
+      "Munsell-V": 9.22,
+      "Munsell-C": 29.55,
+      "Munsell-H": 23.96,
+      "CIE-TC147": 18.91,
+      "Mean6_Psychophysical": 19.04,
+      "Mean7": 19.02
+    },
+    "Ablation: Isotropic Chroma/Hue (S_C = S_H)": {
+      "MacAdam74": 17.07,
+      "OSA-Atlas": 13.27,
+      "MacAdam42": 25.15,
+      "Munsell-V": 7.09,
+      "Munsell-C": 28.08,
+      "Munsell-H": 24.16,
+      "CIE-TC147": 15.18,
+      "Mean6_Psychophysical": 19.14,
+      "Mean7": 18.57
+    },
+    "Ablation: Homogeneous Riemannian (gamma_d = 1.0)": {
+      "MacAdam74": 16.41,
+      "OSA-Atlas": 13.13,
+      "MacAdam42": 29.22,
+      "Munsell-V": 10.01,
+      "Munsell-C": 34.79,
+      "Munsell-H": 26.34,
+      "CIE-TC147": 14.68,
+      "Mean6_Psychophysical": 21.65,
+      "Mean7": 20.65
+    },
+    "Ablation: Pure Euclidean Space (G = I)": {
+      "MacAdam74": 17.47,
+      "OSA-Atlas": 11.92,
+      "MacAdam42": 29.67,
+      "Munsell-V": 11.3,
+      "Munsell-C": 35.81,
+      "Munsell-H": 25.36,
+      "CIE-TC147": 19.84,
+      "Mean6_Psychophysical": 21.92,
+      "Mean7": 21.62
+    }
+  },
+  "cross_validation_5fold": {
+    "MacAdam74": {
+      "CV5_Train_Mean": 15.06,
+      "CV5_Test_Mean": 15.44,
+      "Bootstrap_95CI": [
+        14.03,
+        17.74
+      ]
+    },
+    "OSA-Atlas": {
+      "CV5_Train_Mean": 10.77,
+      "CV5_Test_Mean": 10.7,
+      "Bootstrap_95CI": [
+        11.14,
+        11.86
+      ]
+    },
+    "MacAdam42": {
+      "CV5_Train_Mean": 23.06,
+      "CV5_Test_Mean": 23.21,
+      "Bootstrap_95CI": [
+        22.13,
+        26.09
+      ]
+    },
+    "Munsell-V": {
+      "CV5_Train_Mean": 5.16,
+      "CV5_Test_Mean": 5.23,
+      "Bootstrap_95CI": [
+        5.59,
+        9.52
+      ]
+    },
+    "Munsell-C": {
+      "CV5_Train_Mean": 18.47,
+      "CV5_Test_Mean": 18.39,
+      "Bootstrap_95CI": [
+        26.58,
+        30.48
+      ]
+    },
+    "Munsell-H": {
+      "CV5_Train_Mean": 22.48,
+      "CV5_Test_Mean": 22.51,
+      "Bootstrap_95CI": [
+        23.56,
+        25.3
+      ]
+    },
+    "CIE-TC147": {
+      "CV5_Train_Mean": 21.03,
+      "CV5_Test_Mean": 22.51,
+      "Bootstrap_95CI": [
+        9.98,
+        21.64
+      ]
+    }
+  },
+  "wilcoxon_p_vs_ciede2000": 0.0,
+  "generation": {
+    "max_rt_xyz_srgb": 2.3314683517128287e-15,
+    "p99_rt_xyz_srgb": 1.3322676295501878e-15,
+    "white_rt_xyz": 9.992007221626409e-16,
+    "max_rt_xyz_rec2020": 2.4424906541753444e-15,
+    "max_rt_xyz_hdr_100x": 2.5579538487363607e-13,
+    "neutral_max_C": 5.1453784506509e-14,
+    "neutral_mean_C": 7.376989276952061e-15,
+    "munsell_cv_pct": 0.42525213175082477,
+    "step19_cv_pct": 0.6691890046415961,
+    "primaries_L": {
+      "Black (#000000)": 0.0,
+      "Blue (#0000ff)": 0.3955686674505565,
+      "Red (#ff0000)": 0.5751840742066273,
+      "Magenta (#ff00ff)": 0.6573250938977603,
+      "Green (#00ff00)": 0.8539572766980802,
+      "Cyan (#00ffff)": 0.9008471230602703,
+      "Yellow (#ffff00)": 0.9619935311592295,
+      "White (#ffffff)": 1.0,
+      "50% Gray (#808080)": 0.5513714100339848
+    },
+    "strict_primary_order": true,
+    "blue_white_mid_hex": "#88a7e6",
+    "blue_white_mid_srgb": [
+      0.5333,
+      0.6549,
+      0.902
+    ],
+    "blue_mid_srgb_hue_deg": 220.2127659574468,
+    "grad_cv_riemannian_mean": 0.02820982392507823,
+    "grad_cv_euclidean_mean": 3.648146364517355,
+    "grad_cv_oklab_mean": 18.909321025086793
+  },
+  "speed_ms": {
+    "ax_from_xyz_100k": 17.66,
+    "ax_to_xyz_100k": 17.75,
+    "ax_grad_64_riem_full_ms": 0.702,
+    "ax_grad_64_euc_full_ms": 0.627
+  }
+}

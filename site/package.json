@@ -1,0 +1,36 @@
+{
+	"name": "axiomlab-site",
+	"private": true,
+	"version": "2.1.0",
+	"type": "module",
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
+	},
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"sync": "node scripts/sync.mjs",
+		"prepare": "svelte-kit sync || true"
+	},
+	"dependencies": {
+		"@lucide/svelte": "^1.61.0",
+		"helmlab": "^1.0.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^4.0.0",
+		"@sveltejs/kit": "^3.1.0",
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"@tailwindcss/vite": "^4.3.3",
+		"@types/node": "^26.6.5",
+		"svelte": "^5.57.2",
+		"svelte-check": "^4.6.0",
+		"tailwindcss": "^4.3.3",
+		"typescript": "^6.0.3",
+		"vite": "^8.3.5",
+		"@fontsource-variable/google-sans-flex": "^5.3.2",
+		"@fontsource-variable/roboto-flex": "^5.3.0"
+	}
+}
