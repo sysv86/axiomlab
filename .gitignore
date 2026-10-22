@@ -8,4 +8,5 @@ build/
 node_modules/
 .svelte-kit/
 .venv/
+*.tgz
 .DS_Store

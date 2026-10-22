@@ -4,6 +4,14 @@
   "description": "AxiomLab (AxLab / AxLCh) v2.1.0 — Unified Closed-Form Perceptual Color Space & Strictly Positive-Definite Midpoint Riemannian Metric Tensor calibrated on 6 primary-source psychophysical datasets (10,452 pairs) and CIE TC 1-47 (34 pairs).",
   "main": "axiomlab.js",
   "types": "axiomlab.d.ts",
+  "exports": {
+    ".": {
+      "types": "./axiomlab.d.ts",
+      "require": "./axiomlab.js",
+      "import": "./axiomlab.js",
+      "default": "./axiomlab.js"
+    }
+  },
   "files": [
     "axiomlab.js",
     "axiomlab.d.ts",
@@ -12,6 +20,17 @@
   ],
   "scripts": {
     "test": "node test_axiomlab.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sysv86/axiomlab.git"
+  },
+  "homepage": "https://kerneldroid.github.io/axiomlab/",
+  "bugs": {
+    "url": "https://github.com/sysv86/axiomlab/issues"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "keywords": [
     "color",

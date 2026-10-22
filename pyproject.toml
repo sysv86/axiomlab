@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=61.0"]
+requires = ["setuptools>=77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,11 +7,28 @@ name = "axiomlab"
 version = "2.1.0"
 description = "AxiomLab (AxLab / AxLCh) v2.1.0 — Unified Closed-Form Perceptual Color Space & Positive-Definite Midpoint Riemannian Metric Tensor"
 readme = "README.md"
-license = {text = "MIT"}
+license = "MIT"
+license-files = ["LICENSE"]
 requires-python = ">=3.9"
 dependencies = [
     "numpy>=1.22.0",
 ]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Multimedia :: Graphics :: Color",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.urls]
+Homepage = "https://kerneldroid.github.io/axiomlab/"
+Playground = "https://kerneldroid.github.io/axiomlab/playground/"
+Benchmarks = "https://kerneldroid.github.io/axiomlab/benchmarks/"
+Repository = "https://github.com/sysv86/axiomlab"
+Issues = "https://github.com/sysv86/axiomlab/issues"
 
 [project.optional-dependencies]
 verify = [
@@ -27,4 +44,6 @@ benchmark = [
 ]
 
 [tool.setuptools]
-py-modules = ["axiomlab", "baselines", "build_datasets"]
+# The published wheel is the zero-dependency core. Dataset builders, the
+# verifier and the HelmLab harness stay in the repository.
+py-modules = ["axiomlab"]
