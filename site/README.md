@@ -53,5 +53,6 @@ cd site && npm run sync
 The Material 3 token system, spring motion helpers, shape-morphing library and
 ripple attachment are adapted from
 [olegpolin/material-expressive-svelte](https://github.com/olegpolin/material-expressive-svelte)
-(MIT, Copyright © 2026 Oleg Polin). The shape library is derived from AOSP
+by **Oleg Polin** (MIT, Copyright © 2026 Oleg Polin). The original Svelte page,
+its component structure and motion system are his work. The shape library is derived from AOSP
 (Apache-2.0). See `LICENSE-material-expressive-svelte` in the repository root.

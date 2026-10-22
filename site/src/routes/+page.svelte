@@ -287,7 +287,7 @@ ramp = ax.gradient("#0000ff", "#ffffff", 16, metric_step=True)`;
 			<p class="type-body-md max-w-[62ch] text-on-surface-variant">
 				AxiomLab v2.1 · Svelte 5 + Tailwind 4 + Material 3 Expressive · MIT license.
 				Theme, motion and shape system adapted from
-				<a class="underline" href="https://github.com/olegpolin/material-expressive-svelte" target="_blank" rel="noopener noreferrer">material-expressive-svelte</a>.
+				<a class="underline" href="https://github.com/olegpolin/material-expressive-svelte" target="_blank" rel="noopener noreferrer">material-expressive-svelte by Oleg Polin</a>.
 			</p>
 		</div>
 		<nav class="flex flex-wrap items-center gap-1" aria-label="Footer">
